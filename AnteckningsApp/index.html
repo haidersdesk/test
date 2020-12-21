@@ -2,8 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-    <title>Anteckningsdagbok</title>
+    
+    <title>NoteThought!</title>
+    <div id="welcomeText"></div>
+    <div id="welcomeinv"></div>
+    <div id="clock"></div>
+    <script src="userRequest.js"></script>
+    <script src="clock.js"></script>
   </head>
 
   <body>
@@ -19,11 +24,14 @@
     
     <main id="main">
       <header id="header">
-        <h1>AnteckningsDagbok</h1>
+        <h1>NoteThought. . .</h1>
+        <div id="buttonandform">
+          <button id="newlogg">nytt inlägg</button>
+        </div>
       </header>
 
       <div id="dag1">
-        <h2>Mon</h2>
+        <h2>Mån</h2>
       </div>
       <div id="dag2">
         <h2>Tis</h2>
@@ -40,19 +48,14 @@
       <div id="dag6">
         <h2>Lör</h2>
       </div>
-      <div id="dag7">
+      <div id="dag0">
         <h2>Sön</h2>
       </div>
 
       <div id="loggboken"></div>
-      <div id="buttonandform" style="position: relative">
-        <button id="newlogg">nytt inlägg</button>
-      </div>
+      
     </main>
 
-    <script type="text/javascript" src="anteckningar0.js"></script>
+    <script type="text/javascript" src="anteckningar.js"></script>
   </body>
 </html>
-
-
-git ls-files -o --exclude-standard 
